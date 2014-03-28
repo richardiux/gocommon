@@ -18,8 +18,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	joyenthttp "github.com/joyent/gocommon/http"
 	"github.com/joyent/gosign/auth"
+	joyenthttp "github.com/richardiux/gocommon/http"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	gc "launchpad.net/gocheck"
 	"net/http"
 	"os"
 	"testing"
 
-	httpsuite "github.com/joyent/gocommon/testing"
 	"github.com/joyent/gosign/auth"
+	httpsuite "github.com/richardiux/gocommon/testing"
+	gc "launchpad.net/gocheck"
 )
 
 const (

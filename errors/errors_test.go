@@ -10,9 +10,10 @@
 package errors_test
 
 import (
-	"github.com/joyent/gocommon/errors"
-	gc "launchpad.net/gocheck"
 	"testing"
+
+	"github.com/richardiux/gocommon/errors"
+	gc "launchpad.net/gocheck"
 )
 
 func Test(t *testing.T) { gc.TestingT(t) }

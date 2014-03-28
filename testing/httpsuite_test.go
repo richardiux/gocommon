@@ -4,13 +4,13 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"io/ioutil"
-	gc "launchpad.net/gocheck"
 	"net/http"
 	"net/url"
 	"reflect"
 	"testing"
+	gc "launchpad.net/gocheck"
 
-	jt "github.com/joyent/gocommon/testing"
+	jt "github.com/richardiux/gocommon/testing"
 )
 
 type HTTPTestSuite struct {

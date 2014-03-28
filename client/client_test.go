@@ -12,14 +12,15 @@ package client_test
 import (
 	"flag"
 	"fmt"
-	"github.com/joyent/gocommon/client"
-	joyenthttp "github.com/joyent/gocommon/http"
-	"github.com/joyent/gocommon/jpc"
-	"github.com/joyent/gosign/auth"
-	gc "launchpad.net/gocheck"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/joyent/gosign/auth"
+	"github.com/richardiux/gocommon/client"
+	joyenthttp "github.com/richardiux/gocommon/http"
+	"github.com/richardiux/gocommon/jpc"
+	gc "launchpad.net/gocheck"
 )
 
 type ClientSuite struct {

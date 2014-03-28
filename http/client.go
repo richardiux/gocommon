@@ -24,10 +24,10 @@ import (
 
 	"github.com/juju/loggo"
 
-	"github.com/joyent/gocommon"
-	"github.com/joyent/gocommon/errors"
-	"github.com/joyent/gocommon/jpc"
 	"github.com/joyent/gosign/auth"
+	"github.com/richardiux/gocommon"
+	"github.com/richardiux/gocommon/errors"
+	"github.com/richardiux/gocommon/jpc"
 )
 
 const (
